@@ -8,6 +8,7 @@ import store from "./store";
 import Agences from "./components/layout/Agences";
 import Achat from "./components/layout/Achat";
 import Location from "./components/layout/Location";
+import Contact from "./components/layout/Contact";
 import Menu from './components/layout/menu'
 import Landing from "./components/layout/Landing";
 import Register from "./components/auth/Register";
@@ -50,6 +51,8 @@ class App extends Component {
             <Route exact path="/location/" component={Location} />
             <Route exact path="/Achat/" component={Achat} />
             <Route exact path="/Agences/" component={Agences} />
+            <Route exact path="/Contact/" component={Contact} />
+
            
 
             <div>

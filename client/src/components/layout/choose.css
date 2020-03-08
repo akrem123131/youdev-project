@@ -1,0 +1,74 @@
+.choose-icon {
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 50%;
+	color: #fff;
+	font-size: 21px;
+	margin-top: 1px;
+	float: left;
+}
+
+.choose-text {
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #ddd;
+	overflow: hidden
+}
+
+.choose-right li.choose-list-1 .choose-icon {
+	background: #70a9e3 none repeat scroll 0 0;
+}
+
+.choose-right li.choose-list-2 .choose-icon {
+	background: #5995d1 none repeat scroll 0 0;
+}
+
+.choose-right li.choose-list-3 .choose-icon {
+	background: #4484c4 none repeat scroll 0 0;
+}
+
+.choose-right li.choose-list-4 .choose-icon {
+	background: #387abc none repeat scroll 0 0;
+}
+
+.choose-right li.choose-list-5 .choose-icon {
+	background: #1d5fa2 none repeat scroll 0 0;
+}
+
+.choose-right li.choose-list-2 {
+	margin-left: 35px;
+}
+
+.choose-right li.choose-list-3 {
+	margin-left: 60px;
+}
+
+.choose-right li.choose-list-4 {
+	margin-left: 35px;
+}
+
+.choose-text p {
+	width: 95%;
+    color: #111
+}
+
+.maaxen-choose-area .site-heading {
+	margin-bottom: 60px
+}
+
+.choose-right ul li:last-child .choose-text {
+	margin-bottom: 0
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+*, *::before, *::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}

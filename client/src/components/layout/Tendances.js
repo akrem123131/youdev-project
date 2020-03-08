@@ -31,7 +31,7 @@ export default class Tendances extends Component {
     render() {
         return (
             <section className="tendances">
-               <Title title="Tendances"/>
+               <Title title="Top Tendances ANNONCES IMMOBILIERES"/>
                <div className="tendances-center">
 {this.state.tendances.map((item, index) => {
     return(

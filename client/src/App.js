@@ -17,6 +17,7 @@ import PrivateRoute from "./components/private-route/PrivateRoute";
 import Dashboard from "./components/dashboard/Dashboard";
 import Admin from "./components/layout/Admin";
 import { Footer } from "./components/layout/Footer";
+import AboutUs from "./components/layout/AboutUs"
 import "./App.css"
 // Check for token to keep user logged in
 if (localStorage.jwtToken) {
@@ -52,6 +53,7 @@ class App extends Component {
             <Route exact path="/Achat/" component={Achat} />
             <Route exact path="/Agences/" component={Agences} />
             <Route exact path="/Contact/" component={Contact} />
+            <Route exact path="/AboutUs/" component={AboutUs} />
 
            
 

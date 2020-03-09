@@ -2,6 +2,8 @@
 import React from 'react'
 import "./Footer.css"
 import { FaFacebook,FaGooglePlus } from "react-icons/fa"
+import { Link } from "react-router-dom";
+
 export const Footer = () => {
     return (
         <div className="main-footer">
@@ -11,7 +13,12 @@ export const Footer = () => {
                 <div className="col">
                     <h4>Sublimmo.tn</h4>
                     <ul className="list-unstyled">
-                        <li><b>A propos de Sublimmo</b></li>
+                        <li>
+                            <Link to="/AboutUs/">
+
+                            A propos de Sublimmo
+                            </Link>
+                        </li>
                         <li>Qui Sommes-nous</li>
                         <li>Nos Agences</li>
                     </ul>

@@ -1,32 +1,65 @@
 import React, { Component } from 'react'
-import'./choose.css'
-
 import akrem from './images/akrem.png'
 
-import {  FaCheck} from "react-icons/fa"
+import Hero from './Hero'
+import Banner from './Banner';
+import { Link } from "react-router-dom";
 
-export default class essay extends Component {
+import {  FaCheck} from "react-icons/fa"
+import Autre from "./Autre";
+
+import './AboutUs.css'
+
+
+export class AboutUs extends Component {
     render() {
         return (
-            <div>
+            <>
+            <Hero hero="roomsHero">
+                    <Banner title="About Us">
+                        <Link to="/" className="btn-primary">
+                    Retour Accueil
+                        </Link>
+                    </Banner>
+            </Hero>
 
-            
-           <section className="a">
-                <div className="container">
-                    <div className="row">
-                    <div class="col-md-6">
+<br/> <br/>
+
+                <div>
+                    <section className="maaxen-about-page section_70">>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="about-left">
+                                    <h3>Buy or sell your house in few seconds with <span>Sublimmo</span>.</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore                          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo                          consequat. Duis aute irure dolor in reprehenderit in volupt ate velit esse cillum dolore eu fugiat nulla pariatur. 			</p>
+                                    
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="about-right margin-top">
+                                    <img src={akrem} alt="Sublimmo" />
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    </section>
+
+                    <br/><br/>
+
+                    <section class="maaxen-different-area section_70">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6">
                   <div class="different-left">
-                     <h3>Why choose us </h3>
-                     
+                     <h3>Why are we different <span>from the others</span></h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in volupt ate velit esse cillum dolore eu fugiat nulla pariatur. </p>
                   </div>
                </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-lg-6 col-sm-12">
-                            <div class="choose-left">
-                            <img src={akrem} alt="Sublimmo" />
-                            </div>
-                        </div>
+               
                         <div className="col-lg-6 col-sm-12">
                         <div class="choose-right">
                             <ul>
@@ -104,11 +137,18 @@ export default class essay extends Component {
                             </ul>
                         </div>
                         </div>
-                    </div>
-                </div>
+            </div>
+            </div>
+         
+      </section>
+      <br/>
+      <Autre />
 
-           </section>
-           </div>
+
+                </div>
+                </>
         )
     }
 }
+
+export default AboutUs

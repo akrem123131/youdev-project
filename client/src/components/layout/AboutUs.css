@@ -1,0 +1,99 @@
+.maaxen-about-page {
+	padding-bottom: 50px;
+}
+
+.about-left h3,
+.different-left h3 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 30px;
+	color: #111;
+	letter-spacing: 1px;
+	margin-bottom: 40px;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+	display: inline-block;
+	text-transform: capitalize;
+	line-height: 45px;
+	position: relative
+}
+
+.about-left h3 span {
+	color: #3F85CE
+}
+
+.different-left h3 span {
+	display: block
+}
+
+.about-left h3:before,
+.different-left h3:before {
+	position: absolute;
+	content: "";
+	width: 30%;
+	height: 2px;
+	background: #111 none repeat scroll 0 0;
+	left: 0;
+	bottom: -15px;
+}
+
+.about-left h3:after,
+.different-left h3:after {
+	position: absolute;
+	content: "";
+	width: 40%;
+	height: 2px;
+	background: #3F85CE none repeat scroll 0 0;
+	left: 0;
+	bottom: -10px;
+}
+
+.about-left a.maaxen-btn {
+	margin-top: 30px;
+}
+
+.maaxen-different-area {
+	background: #f8f9fc none repeat scroll 0 0;
+}
+
+.different-right ul {
+	background: #fff;
+	padding: 20px;
+}
+
+.different-right ul li {
+	margin-bottom: 10px;
+	text-transform: capitalize;
+	color: #333;
+}
+
+.different-right ul li i {
+	color: #3F85CE;
+	margin-right: 5px
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.choose-icon {
+	background: #70a9e3 none repeat scroll 0 0;
+}
+
+.choose-icon {
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 50%;
+	color: #fff;
+	font-size: 21px;
+	margin-top: 1px;
+	float: left;
+}

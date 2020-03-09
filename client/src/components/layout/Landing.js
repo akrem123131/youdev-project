@@ -4,7 +4,7 @@ import Banner from './Banner';
 import { Link } from "react-router-dom";
 import Services from "./Services"
 import Tendances from './Tendances';
-import Autre from "./Autre";
+
 
 
 
@@ -23,7 +23,7 @@ class Landing extends Component {
         </Hero>
         <Tendances />
         <Services />
-        <Autre />
+       
             
             
         </>

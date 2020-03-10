@@ -1,9 +1,11 @@
+
 import React, { Component } from "react";
 import Hero from "./Hero";
 import Banner from './Banner';
 import { Link } from "react-router-dom";
 import Services from "./Services"
 import Tendances from './Tendances';
+//import './'
 
 
 
@@ -14,10 +16,10 @@ class Landing extends Component {
       <>
        <Hero>
            <Banner 
-                title="luxueux Bien" 
-                subtitle="deluxe Biens starting at $299">
-                <Link to="/rooms" className="btn-primary">
-                    our rooms
+                title="Découvrir Nos Agences " 
+                subtitle="Deluxe Biens à Louer et à Vendre">
+                <Link to="/Agences/" className="btn-primary">
+                    Nos Agences
                 </Link>
            </Banner>
         </Hero>
@@ -31,4 +33,3 @@ class Landing extends Component {
   }
 }
 export default Landing;
-
